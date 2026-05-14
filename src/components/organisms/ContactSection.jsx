@@ -13,10 +13,9 @@ export function ContactSection({ contact, whatsappHref }) {
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
       >
-        <h2>Contact Us Directly through Various Platforms</h2>
+        <h2>Contact Us</h2>
         <p>
-          You may choose to schedule a phone call or make an appointment from the available options
-          platforms.
+          You may choose to contact us through the available options below.
         </p>
       </motion.div>
 

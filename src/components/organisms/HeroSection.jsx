@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { ArrowRight, MessageCircle } from "lucide-react";
 import { Button } from "../atoms/Button";
 import { fadeIn, fadeInUp } from "../../lib/animations";
 
@@ -15,7 +16,12 @@ export function HeroSection({ founder }) {
           source of network.
         </p>
         <div className="hero-actions">
-          <Button href="#contact" variant="primary">
+          <Button href="#businesses" variant="primary">
+            Explore Now
+            <ArrowRight size={18} strokeWidth={2.2} aria-hidden="true" />
+          </Button>
+          <Button href="#contact" variant="secondary">
+            <MessageCircle size={18} strokeWidth={2.2} aria-hidden="true" />
             Enquire Now
           </Button>
         </div>

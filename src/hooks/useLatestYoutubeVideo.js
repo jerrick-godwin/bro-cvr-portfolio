@@ -18,7 +18,6 @@ export function useLatestYoutubeVideo(defaultMedia, feedUrl) {
               return {
                 ...item,
                 title: latestVideo.title,
-                summary: "Watch our latest video uploaded to YouTube.",
                 image: latestVideo.thumbnail,
                 link: latestVideo.link,
               };
